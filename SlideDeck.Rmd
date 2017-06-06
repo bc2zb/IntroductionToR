@@ -131,9 +131,7 @@ a[[2,1]] <- "one"
 a
 ```
 
-## Coercions go from least to most flexible:  logical, integer, double and character.
-
-R has a powerful set of subsetting operations that apply to all vectors uniformly. R allows, to subset ranges, rows, columns of vectors.
+## R has a powerful set of subsetting operations that apply to all vectors uniformly. R allows, to subset ranges, rows, columns of vectors.
 
 ```{r, echo = TRUE}
 a[1,]
@@ -141,7 +139,7 @@ a[1:2,]
 a[1:2,2:3]
 ```
 
-## Coercions continued
+## Coercions
 
 ```{r, echo = TRUE}
 aa <- as.integer(a)
@@ -174,7 +172,9 @@ aa[1, c(FALSE, TRUE, TRUE)]
 ## Subsetting can be used in assignment operations as well.
 
 ```{r, echo = TRUE}
+a
 a[1:3] <- a[4:6]
+a
 ```
 
 
@@ -208,3 +208,24 @@ x
 - There are two primary repositories from which to get *packages*, [CRAN](https://cran.r-project.org/) and [Bioconductor](http://bioconductor.org/)
 
 - Bioconductor has made available a number of previous [courses](http://bioconductor.org/help/course-materials/) as well
+
+## Installing packages from CRAN
+
+```{r, echo=TRUE}
+install.packages("tidyverse", verbose = T, repos='http://cran.us.r-project.org')
+```
+
+## Installing packages from Bioconductor
+
+```{r, echo =T}
+source("https://bioconductor.org/biocLite.R")
+biocLite("flowCore", verbose = T, suppressUpdates = T)
+```
+
+## Loading libraries
+
+```{r, echo = T}
+library(flowCore)
+library(tidyverse)
+```
+
