@@ -26,7 +26,28 @@ knitr::opts_chunk$set(echo = FALSE)
 - [RStudio](https://www.rstudio.com/)
 
 - UVA Office of Research Core Administration
-  
+
+## attributes(Brian)
+
+- BS in Cellular and Molecular Biology
+
+- Wet lab experience in yeast/bacterial genetics and materials science
+
+- PhD in Biochemistry and Molecular Genetics
+
+- Core informatician at UVA SOM ORCA
+    
+    1. Cytometry
+    
+    2. Mass spectrometry
+    
+    3. Next Generation Sequencing
+    
+    4. Microarrays
+
+- [GitHub](https://github.com/bc2zb)    
+
+
 ## Why R?
 
 - It's flexible (this presentation was made using R)
@@ -56,8 +77,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ## R as a computational bench top 
 
 - Data as experiments
+
 - Data structures as glassware
+
 - Functions as instruments
+
 - Vignettes as protocols
 
 ## Data types in R
@@ -370,12 +394,30 @@ pData(phenoData(fs))
 
 - Lab's GitHub Repositories
 
-    -[Nolan](https://github.com/nolanlab)
+    -[Nolan Lab](https://github.com/nolanlab)
     
-    -[Gottardo](https://github.com/rglab)
+    -[Gottardo Lab](https://github.com/rglab)
+    
+- Other labs to follow
+
+    -[Irish Lab](https://my.vanderbilt.edu/irishlab/)
+    
+    -[Brinkman Lab](http://www.terryfoxlab.ca/people-detail/ryan-brinkman/)
 
 - [Bioconductor Support](https://support.bioconductor.org/)
 
 - [CyTOF Forum](http://cytoforum.stanford.edu/viewforum.php?f=1)
 
 - Institutional Resources
+
+## Next steps while here at CYTO 2017
+
+- There are lots of posters about computational cytometry here
+
+- Workshop 11: Automating High Volume Cytometry Data Analysis for Central Facilities
+
+    Location: Room 302
+    
+    Date: Monday, Jun 12 15:45
+    
+- Keep posting questions on the [GitHub Issues Page](https://github.com/bc2zb/IntroductionToR/issues)
